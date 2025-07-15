@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+
+  text-align: center;
+
+  border: 1px solid grey;
+  flex-basis: 24%;
+}
+
+.isFocus {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+}
+
+.title {
+  padding: 10px 0;
+  color: white;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+
+  padding: 25px;
+  color: white;
+}
+
+.mes {
+  align-self: flex-end;
+}
+
+.total {
+  font-size: 42px;
+}
+
+.speed {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.description {
+  background-color: #eeeeee;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.firstCard {
+  background-color: #2bc1d5;
+}
+
+.green {
+  background-color: #26ad8d;
+}
+
+.red {
+  background-color: #f46a5f;
+}
+
+.black {
+  background-color: #333a44;
+}
