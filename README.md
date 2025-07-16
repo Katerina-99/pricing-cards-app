@@ -27,3 +27,8 @@ If you are developing a production application, we recommend using TypeScript wi
 - React
 - Vite
 - CSS Modules — стили изолированы внутри компонентов (`.module.css`)
+
+## 📁 Структура репозитория
+
+- `master` — базовая версия проекта: отображение карточек и верстка без логики.
+- `extended-state-version` — расширенная версия с добавлением состояния (`state`), позволяющая динамически выбирать карточку.

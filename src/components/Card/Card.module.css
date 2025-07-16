@@ -7,9 +7,10 @@
 
   border: 1px solid grey;
   flex-basis: 24%;
+  cursor: pointer;
 }
 
-.isFocus {
+.isActive {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
 }
