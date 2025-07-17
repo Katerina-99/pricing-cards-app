@@ -9,7 +9,6 @@ const CardList = () => {
       price: "300",
       speed: "10",
       backgroundColor: "firstCard",
-      isActive: false,
       id: "1",
     },
     {
@@ -17,7 +16,6 @@ const CardList = () => {
       price: "450",
       speed: "50",
       backgroundColor: "green",
-      isActive: false,
       id: "2",
     },
     {
@@ -25,7 +23,6 @@ const CardList = () => {
       price: "550",
       speed: "100",
       backgroundColor: "red",
-      isActive: true,
       id: "3",
     },
     {
@@ -33,7 +30,6 @@ const CardList = () => {
       price: "1000",
       speed: "200",
       backgroundColor: "black",
-      isActive: false,
       id: "4",
     },
   ];
