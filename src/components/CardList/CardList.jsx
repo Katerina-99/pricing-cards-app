@@ -34,10 +34,10 @@ const CardList = () => {
     },
   ];
 
-  const [activeId, setactiveId] = useState(false);
+  const [activeId, setActiveId] = useState(false);
 
   const handleClick = (id) => {
-    setactiveId(id);
+    setActiveId(id);
   };
 
   return (
